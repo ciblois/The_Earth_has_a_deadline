@@ -19,7 +19,7 @@
 
 Write a short description of your project: 3-5 sentences about what your project is about, why you chose this topic (if relevant), and what you are trying to show. 
 
-<img src="times_square_clock.jpg" alt="timessquare" width="300"/>
+<img src="../images/times_square_clock.jpg" alt="timessquare" width="300"/>
 
 <a name="hypotheses-/-questions"></a>
 
@@ -38,7 +38,7 @@ Where did you get your data? What dataset did you use or did you build your own 
 ## Workflow
 Outline the workflow you used in your project. What were the steps you went through?
 
-<img src="2.png" alt="pipeline" width="500"/>
+<img src="../images/2.png" alt="pipeline" width="500"/>
 
 <a name="organization"></a>
 
