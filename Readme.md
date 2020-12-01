@@ -16,7 +16,10 @@
 <a name="project-description"></a>
 
 ## Project Description
+
 Write a short description of your project: 3-5 sentences about what your project is about, why you chose this topic (if relevant), and what you are trying to show. 
+
+<img src="times_square_clock.jpg" alt="timessquare" width="300"/>
 
 <a name="hypotheses-/-questions"></a>
 
@@ -35,14 +38,14 @@ Where did you get your data? What dataset did you use or did you build your own 
 ## Workflow
 Outline the workflow you used in your project. What were the steps you went through?
 
-<img src="2.png" alt="pipeline" width="250"/>
+<img src="2.png" alt="pipeline" width="500"/>
 
 <a name="organization"></a>
 
 ## Organization
 How did you organize yourself? Did you use any tools?
 
-<img src="timeline.png" alt="timeline" width="250"/>
+<img src="timeline.png" alt="timeline" width="500"/>
 
 <a name="links"></a>
 
