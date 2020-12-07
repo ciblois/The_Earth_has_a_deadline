@@ -19,7 +19,7 @@
 
 Write a short description of your project: 3-5 sentences about what your project is about, why you chose this topic (if relevant), and what you are trying to show. 
 
-<img src="./images/times_square_clock.jpg" alt="timessquare" width="300"/>
+<img src="./images/times_square_clock.jpg" alt="timessquare" width="300" alig="center"/>
 
 <a name="hypotheses-/-questions"></a>
 
