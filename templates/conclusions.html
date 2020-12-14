@@ -10,6 +10,22 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+
+		<style>
+			* {
+  				box-sizing: border-box;
+				}
+			.img-container {
+  				float: left;
+  				width: 50%;
+  				padding: 5px;
+				}
+			.clearfix::after {
+  				content: "";
+  				clear: both;
+				display: table;
+				}
+		</style>
 	</head>
 	<body class="is-preload">
 
@@ -29,58 +45,42 @@
 									</ul>
 								</header>
 
-							<!-- Content -->
+								<!-- Section -->
 								<section>
 									<header class="main">
 										<h1>Work Conclusions</h1>
 									</header>
-
-									<h2>Interdum sed dapibus</h2>
-
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Curabitur sapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit.</p>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.</p>
-									<p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fersapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit tristique lorem ipsum dolor.</p>
-
-									<h2>Interdum sed dapibus</h2>
-									
-									<iframe src="https://www.mcc-berlin.net/fileadmin/data/clock/carbon_clock.htm?i=3267263" style="width:600px; height:340px;" align="center"></iframe>
-
+									<h2>Features</h2>
+									<p align="justify"> The report below summarize the situation for each feature in the last 26 years and you can navigate through each one. You can slice your research by years and you can check the top 20 countries with the worst (highest) percentage.</p>
+									<iframe width="950" height="836" src="https://app.powerbi.com/view?r=eyJrIjoiNDM4OTI2NWYtYWQ4My00NWI1LThlNmEtYjFlOTAyNjhkYTA0IiwidCI6ImY2NWRlMTk2LTYyMzQtNGFhNy1hNTVhLTI2ZDUzOTRmZTExNyIsImMiOjl9" frameborder="0" allowFullScreen="true"></iframe>
 								</section>
 
-								<!-- Section -->
 								<section>
 									<header class="major">
-										<h2>2020</h2>
+										<h2>2020 vs 2027</h2>
 									</header>
-									<div class="features">
-										<p>Power BI dashborad for 2020</p>
-									</div>
+									<p align="justify"><b>If nothing changes...</b> The report below show the actual world situation for each feature and the predicted situation for 2027. If you prefer, can be filter by country. In addition, it also shows the comparison of today with 2027. With this comparison, we clearly see the countries that most need to make changes. Even so, we all have to worry about doing our part to prevent the climate situation from getting worse.</p>
+
+									<iframe width="950" height="836" src="https://app.powerbi.com/view?r=eyJrIjoiMzJkYzRiNDMtMTI0YS00OGI2LWFiZTctZGJiNjFiNGQ3MmIyIiwidCI6ImY2NWRlMTk2LTYyMzQtNGFhNy1hNTVhLTI2ZDUzOTRmZTExNyIsImMiOjl9" frameborder="0" allowFullScreen="true"></iframe>
 								</section>
 
-								<!-- Section -->
 								<section>
 									<header class="major">
-										<h2>2020</h2>
+										<h2>World Avaliation</h2>
 									</header>
-									<div class="features">
-										<p>Power BI dashborad for 2027</p>
-									</div>
-								</section>
 
+									<p align="justify">The report below shows the global panorama for the final score in 2020 and 2027. The score was calculated taking into account the weight of each feature and adding them together.</p>
+
+									<p align="center">I believe that the drop in the global score predicted for 2027 is still too small not to worry about global warming.</p>
+
+									<iframe width="950" height="836" src="https://app.powerbi.com/view?r=eyJrIjoiZTFmM2NmNjYtZmE0Zi00ZjkzLTkyNzEtOGIyMjVkNWI3M2QxIiwidCI6ImY2NWRlMTk2LTYyMzQtNGFhNy1hNTVhLTI2ZDUzOTRmZTExNyIsImMiOjl9" frameborder="0" allowFullScreen="true"></iframe>
+								</section>
 						</div>
 					</div>
 
 				<!-- Sidebar -->
 					<div id="sidebar">
 						<div class="inner">
-
-							<!-- Search -->
-								<section id="search" class="alt">
-									<form method="post" action="#">
-										<input type="text" name="query" id="query" placeholder="Search" />
-									</form>
-								</section>
-
 							<!-- Menu -->
 								<nav id="menu">
 									<header class="major">
@@ -89,24 +89,7 @@
 									<ul>
 										<li><a href="index.html">Homepage</a></li>
 										<li><a href="tech.html">Technical Development</a></li>						
-										<li>
-											<span class="opener">Variables</span>
-											<ul>
-												<li><a href="#">Dashboard 1</a></li>
-												<li><a href="#">Dashboard 2</a></li>
-												<li><a href="#">Dashboard 3</a></li>
-												<li><a href="#">Dashboard 4</a></li>
-												<li><a href="#">Dashboard 5</a></li>
-											</ul>
-										</li>
-										<li>
-											<span class="opener">Future Prediction</span>
-											<ul>
-												<li><a href="#">2020</a></li>
-												<li><a href="#">2027</a></li>
-											</ul>
-										</li>
-										<li><a href="conclusions.html">Conclusion</a></li>
+										<li><a href="conclusions.html">Predictions and Analysis</a></li>
 									</ul>
 								</nav>
 

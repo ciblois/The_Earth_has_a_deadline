@@ -30,12 +30,16 @@
 								</header>
 
 							<!-- Banner -->
+								<section>
+									<header>
+											<h1>The Earth has a deadline</h1>
+											<p align="right"> Ironhack Final Project </p>
+									</header>
+									
+								</section>
 								<section id="banner">
 									<div class="content">
-										<header>
-											<h1>The Earth has a deadline</h1>
-											<p align="center"> Ironhack Final Project </p>
-										</header>
+																				
 										<p align="justify">Inspired by the change in Metronome’s digital clock during the week of September 20 to September 27, 2020, this project makes a worldwide analysis of environmental factors over the years. In addition, the idea is to show how the environmental indexes are today (2020) and how we will be in the year (2027) of the climatic collapse. The clock has been reprogrammed to illustrate a critical window for action to prevent the effects of global warming from becoming irreversible.</p>
 										<ul class="actions">
 											<li><a href="https://www.nytimes.com/2020/09/20/arts/design/climate-clock-metronome-nyc.html" class="button big">NY Times Article</a></li>
@@ -45,40 +49,38 @@
 										<img src="https://static01.nyt.com/images/2020/09/21/arts/20clock1/20clock1-jumbo-v2.jpg?quality=90&auto=webp" alt="" />
 									</span>
 								</section>
+								<section>
+									<h2>Climate Clock</h2>
+									<blockquote align="justify">"The Climate Clock shows two numbers. The first, in red, is a timer, counting down how long it will take, at current rates of emissions, to burn through our “carbon budget” — the amount of CO<sub>2</sub> that can still be released into the atmosphere while limiting global warming to 1.5°C above pre-industrial levels. This is our deadline, the time we have left to take decisive action to keep warming under the 1.5°C threshold. The second number, in green, is tracking the growing % of the world’s energy currently supplied from renewable sources. This is our lifeline. Simply put, we need to get our lifeline to 100% before our deadline reaches 0." </blockquote>
+									<script src="https://climateclock.world/widget-v2.js" async></script>
+									<script src="https://climateclock.world/flatten.js" async></script>
+									<ul class="actions">											
+											<li><a href="https://climateclock.world/" class="button big">Website Font</a></li>
+										</ul>
+									
+									<climate-clock />
+								</section>
 
 							<!-- Section -->
 								<section>
+									
 									<header class="major">
 										<h2>Project Description</h2>
 									</header>
 
 									<article>
-										<div class="content">
-										<p align="justify">In order to be able to make an analysis of the climatic changes I looked for a dataset that contained information about environmental factors. I found the dataset with various information from the <i>'2020 Environmental Performance Index'</i>. Decide to assess the situation related to climate and pollution. The features I will evaluate are:</p>
+										<div class="content" align="center">
+										<p align="justify">In order to be able to make an analysis of the climatic changes I looked for a dataset that contained information about environmental factors. I found the dataset with various information from the <i>'2020 Environmental Performance Index'</i>.</p>
+
+										<p align="justify">My dataset is divide as shown in the figure above.</p>
 
 										<span class="image object">
-										<img src="images/dataset_overview.jpg" alt="" />
+										<img src="images/dataset_overview.jpg" width="700" alt="" />
 										</span>
-										
-									</article>
-								</section>
 
-							<!-- Section -->
-								<section>
-									<header class="major">
-										<h2>Dataset</h2>
-									</header>
-									<article>
-										<div class="content">
-											<p align="justify">The original Dataset original dataset provides a lot information as you can see in the image below. </p>
-											<a href="https://search.earthdata.nasa.gov/search?gdf=Excel" class="image"><img src="dataset_overview.jpg" alt="" /></a>
-											<ul class="actions">
-												<li><a href="https://sedac.ciesin.columbia.edu/data/set/epi-environmental-performance-index-2020/data-download" class="button">Dataset Website</a></li>
-											</ul>
-											<span class="image object">
-												<img src="images/table.jpg" alt="" />
-											</span>
-											<div class="table-wrapper">
+										<p align="justify">As <i>Ecosystem Vitality</i> covers most of the problems listed in the dataset, we chose to go deeper into this topic and within it the subject that has the highest percentage is <i>climate change</i>. The factors that most affect this are listed below and these will be analyzed.</p>
+
+										<div class="table-wrapper">
 												<table>
 													<thead>
 														<tr>
@@ -89,63 +91,42 @@
 														<tbody>
 															<tr>
 																<td>CDA</td>
-																<td>CO<sub>2</sub> emissions</td>	
+																<td>CO<sub>2</sub> Growth Rate</td>	
 															</tr>
 															<tr>
 																<td>CHA</td>
-																<td>Methane emissions</td>
+																<td>Methane (CH<sub>4</sub>) Growth Rate</td>
 															</tr>
 															<tr>
 																<td>FGA</td>
-																<td>N<sub>2</sub>O emissions</td>
+																<td>F-gas Growth Rate</td>
+															</tr>
+															<tr>
+																<td>NDA</td>
+																<td>N<sub>2</sub>O Growth Rate</td>
 															</tr>
 															<tr>
 																<td>BCA</td>
-																<td>Black carbon emissions</td>
+																<td>Black Carbon Growth Rate</td>
 															</tr>
 														</tbody>											
-												</table> 
+												</table>
 										</div>
-										</div>
-									</article>
+									</article>									
 								</section>
-
-							<!-- Section -->
 								<section>
 									<header class="major">
-										<h2>Workflow</h2>
+										<h2>Overview</h2>
 									</header>
-									<div class="features">
-										<h2>Readme.md</h2>
-									</div>
+									<p align="justify">Below you can check a <b>Power BI</b> report with the features over the years and in red the predicted for the next 7 years by country. </p>
+									<iframe width="950" height="836" src="https://app.powerbi.com/view?r=eyJrIjoiOWQ2OTEwNGYtZTg4YS00ODcxLTk1ZmUtM2ZhODJkMzg3ODBjIiwidCI6ImY2NWRlMTk2LTYyMzQtNGFhNy1hNTVhLTI2ZDUzOTRmZTExNyIsImMiOjl9&pageName=ReportSectiond366d57f40d5aa64e4e1" frameborder="0" allowFullScreen="true"></iframe>
 								</section>
-
-							<!-- Section -->
-								<section>
-									<header class="major">
-										<h2>Pipeline</h2>
-									</header>
-									<div class="features">
-										<span class="image object">
-											<img src="images/pipeline.jpg" width=1000px alt="" />
-										</span>
-									</div>
-								</section>
-
 						</div>
-					</div>
+					</div>		
 
 				<!-- Sidebar -->
 					<div id="sidebar">
 						<div class="inner">
-
-							<!-- Search -->
-								<!--  <section id="search" class="alt">
-									<form method="post" action="#">
-										<input type="text" name="query" id="query" placeholder="Search" />
-									</form>
-								</section>-->
-
 							<!-- Menu -->
 								<nav id="menu">
 									<header class="major">
@@ -154,24 +135,7 @@
 									<ul>
 										<li><a href="index.html">Homepage</a></li>
 										<li><a href="tech.html">Technical Development</a></li>						
-										<li>
-											<span class="opener">Variables</span>
-											<ul>
-												<li><a href="#">Dashboard 1</a></li>
-												<li><a href="#">Dashboard 2</a></li>
-												<li><a href="#">Dashboard 3</a></li>
-												<li><a href="#">Dashboard 4</a></li>
-												<li><a href="#">Dashboard 5</a></li>
-											</ul>
-										</li>
-										<li>
-											<span class="opener">Future Prediction</span>
-											<ul>
-												<li><a href="#">2020</a></li>
-												<li><a href="#">2027</a></li>
-											</ul>
-										</li>
-										<li><a href="conclusions.html">Conclusion</a></li>
+										<li><a href="conclusions.html">Predictions and Analysis</a></li>
 									</ul>
 								</nav>
 
